@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(119, 129, 113);
+}
+
+header{
+    border-top: black solid;
+    border-bottom: black solid;
+    background-color: rgb(82, 88, 82);
+    width: 100%;
+}
+
+.logo{
+    margin-left: 10%;
+    border-radius: 100%;
+    border: rgb(145, 2, 50);
+    border-right-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+p4{
+    position: absolute;
+    color: black;    
+}
+
+
+
+.table{
+    font-family: Segoe UI;
+    font-size: 30ox;
+    color: black;
+
+}
+
+.block2{
+    position: absolute;
+    margin-left: 6.7%;
+
+}
+
+p5{
+    position: absolute;
+    margin-top: 16.3%;
+    margin-left: 46%;
+    color:black ;
+    font-family: Segoe UI;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 0%;
+    font-family: Segoe UI;
+    background-color: rgb(82, 88, 82);
+    border-top: black solid;
+    border-bottom: black;
+    
+}

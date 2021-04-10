@@ -1,0 +1,112 @@
+p1{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 12%;
+    font-size: 90px;
+    font-family: Franklin Gothic Medium;
+    color: rgb(145, 2, 50);
+    animation-duration: 5s;
+    animation-name: animtitul;
+}
+
+@keyframes animtitul{
+    from{color: rgba(145, 2, 50, 0);}
+    to{color: rgba(145, 2, 50, 1);}
+}
+
+p2{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 15%;
+    font-size: 60px;
+    font-family: Georgia;
+    color:rgb(145, 2, 50);
+    animation-duration: 5s;
+    animation-name: animtitul;
+}
+
+@keyframes animtitul{
+    from{color: rgba(145, 2, 50, 0);}
+    to{color: rgba(145, 2, 50, 1);}
+}
+
+
+.rot{
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 32px;
+    color: black;
+    -webkit-transform-origin: center;
+    animation-duration: 2s;
+    animation-name: mia;
+    animation-iteration-count: 3;
+}
+    
+@keyframes mia {
+    from{-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);}
+
+    to{-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);}
+    }
+
+.rota{
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 32px;
+    color: black;
+    -webkit-transform-origin: center;
+    animation-duration: 2s;
+    animation-name: mia;
+    animation-iteration-count: 5;
+    }
+        
+@keyframes mia {
+    from{-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);}
+    
+        to{-webkit-transform: rotate(360deg);
+        transform: rotate(360deg);}
+    }
+
+.rotb{
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 32px;
+    color: black;
+    -webkit-transform-origin: center;
+    animation-duration: 2s;
+    animation-name: mia;
+    animation-iteration-count: 7;
+    }
+        
+@keyframes mia {
+    from{-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);}
+    
+    to{-webkit-transform: rotate(360deg);
+        transform: rotate(360deg);}
+    }
+
+.rotc{
+        position: absolute;
+        font-family: Segoe UI;
+        font-size: 32px;
+        color: black;
+        -webkit-transform-origin: center;
+        animation-duration: 2s;
+        animation-name: mia;
+        animation-iteration-count: 8;
+    }
+        
+@keyframes mia {
+    from{-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);}
+    
+        to{-webkit-transform: rotate(360deg);
+        transform: rotate(360deg);}
+
+    }
+
+    
+
